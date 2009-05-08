@@ -1,4 +1,4 @@
-Gives you a [name]_attributes= setter method to create nested objects via params.
+Gives you a `[name]_attributes=` setter method to create nested objects via params.
 
 Example
 -------

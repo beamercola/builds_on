@@ -1,15 +1,13 @@
 Gives you a [name]_attributes= setter method to create nested objects via params.
 
 Example
-=======
+-------
 
-contact.rb
-----------
+*contact.rb*
 
     builds_on :emails, :field_to_be_skipped_if_blank => "address"
 
-contacts/_form.html.erb
------------------------
+*contacts/_form.html.erb*
 
     <%= text_field_tag "contact[email_attributes][][address]" %>
 
